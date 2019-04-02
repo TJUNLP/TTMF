@@ -1,5 +1,14 @@
 # Triple Trustworthiness Measurement for Knowledge Graph
 
+This is the source code for the paper ''Triple Trustworthiness Measurement for Knowledge Graph'' accepted by WWW2019.
+
+# Requirements
+Keras
+python 3.x
+
+
+
+
 # Citation
 If you use the code, please cite this paper:
 
