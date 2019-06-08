@@ -175,13 +175,13 @@ def get_graph(file_subGraphs):
 
     return core_node, dg
 
-def get_features_2file(dict_entityRank, file_subGraphs, threshold_dict):
+def get_features_2file(dict_entityRank, file_subGraphs, threshold_dict, file_RRfeatures):
 
     features = []
     classlabels = []
 
     for id in range(12000, 14952):
-        fw = open("/Users/shengbinjia/Documents/GitHub/TCdata/ResourceRank_4/" + str(id) + '.txt', 'w')
+        fw = open(file_RRfeatures + str(id) + '.txt', 'w')
         print(id)
 
         core_node = str(id)
@@ -331,7 +331,7 @@ if __name__ == "__main__":
 
     file_data = "/Users/shengbinjia/Documents/GitHub/TCdata"
 
-    file_entityRank = file_data + "/ResourceRank_4/"
+    # file_entityRank = file_data + "/ResourceRank_4/"
     file_subGraphs = file_data + "/subGraphs_4/"
 
     entity2idfile = file_data + "/FB15K/entity2id.txt"
@@ -359,7 +359,7 @@ if __name__ == "__main__":
 
     trainExamples, confidence = get_data_txt(trainfile)
     threshold_dict = rrcThreshold(trainExamples, dict_entityRank)
-    get_features_2file(dict_entityRank, file_subGraphs, threshold_dict)
+    get_features_2file(dict_entityRank, file_subGraphs, threshold_dict, file_RRfeatures)
 
 
 
