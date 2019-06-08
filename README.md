@@ -11,7 +11,7 @@ The Knowledge graph (KG) uses the triples to describe the facts in the real worl
 ## Usage
 We perform experiments on the FB15K, which is a typical benchmark knowledge graph extracted from Freebase. 
 
-Model1.py  --Program Main Entry
+* Model1.py  --Program Main Entry
 
 PrecessData.py  --Pre-process data for Model1.py.
 
