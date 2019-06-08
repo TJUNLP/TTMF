@@ -87,7 +87,7 @@ if __name__ == '__main__':
     # core_node = 'A'
 
     file_data = "/Users/shengbinjia/Documents/GitHub/TCdata"
-    file_entityRank = file_data + "/ResourceRank_4/"
+    file_entityRank = file_data + "/entityRank_4/"
     file_subGraphs = file_data + "/subGraphs_4/"
 
     for files in os.listdir(file_subGraphs):
