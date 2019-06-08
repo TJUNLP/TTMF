@@ -13,17 +13,17 @@ We perform experiments on the FB15K, which is a typical benchmark knowledge grap
 
 * Model1.py  --Program Main Entry
 
-PrecessData.py  --Pre-process data for Model1.py.
+* PrecessData.py  --Pre-process data for Model1.py.
 
-search.py  --To construct the directed graphs centered on each head entity h.
+* search.py  --To construct the directed graphs centered on each head entity h.
 
-pagerank.py  --Iterating the flow of resources in each graph.
+* pagerank.py  --Iterating the flow of resources in each graph.
 
-ResourceRankConfidence.py  --To get entity-level Estimator values RR (h, t), corresponding to Section 3.1 of paper.
+* ResourceRankConfidence.py  --To get entity-level Estimator values RR (h, t), corresponding to Section 3.1 of paper.
 
-TransConfidence.py  --To get relation-level Estimator values P(E(h,r,t)), corresponding to Section 3.2 of paper.
+* TransConfidence.py  --To get relation-level Estimator values P(E(h,r,t)), corresponding to Section 3.2 of paper.
 
-SearchPaths2.py  --To select reachable paths, corresponding to Section 3.3 of paper.
+* SearchPaths2.py  --To select reachable paths, corresponding to Section 3.3 of paper.
 
 
 ## Citation
