@@ -25,7 +25,9 @@ We perform experiments on the FB15K, which is a typical benchmark knowledge grap
 
 * SearchPaths2.py  --To select reachable paths, corresponding to Section 3.3 of paper.
 
-### You can get more intermediate data that has been generated, from https://pan.baidu.com/s/1KZpOe3xUQTUnOxC1QJRPLQ  pwd:8xqd
+
+
+You can get more intermediate data that has been generated, from https://pan.baidu.com/s/1KZpOe3xUQTUnOxC1QJRPLQ  pwd:8xqd
 
 
 ## Citation
