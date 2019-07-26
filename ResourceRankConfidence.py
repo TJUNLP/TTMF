@@ -330,22 +330,22 @@ def LogisticRegression(dict_features, file_subGraphs, trainExamples, testExample
 if __name__ == "__main__":
 
     file_data = "/Users/shengbinjia/Documents/GitHub/TCdata"
-
-    # file_entityRank = file_data + "/ResourceRank_4/"
+    #
+    # # file_entityRank = file_data + "/ResourceRank_4/"
     file_subGraphs = file_data + "/subGraphs_4/"
-
-    entity2idfile = file_data + "/FB15K/entity2id.txt"
-    relation2idfile = file_data + "/FB15K/relation2id.txt"
-    entity2vecfile =file_data + "/FB15K_TransE_Entity2Vec_100.txt"
-    relation2vecfile = file_data + "/FB15K_TransE_Relation2Vec_100.txt"
-    datafile = "./model/data.pkl"
+    #
+    # entity2idfile = file_data + "/FB15K/entity2id.txt"
+    # relation2idfile = file_data + "/FB15K/relation2id.txt"
+    # entity2vecfile =file_data + "/FB15K_TransE_Entity2Vec_100.txt"
+    # relation2vecfile = file_data + "/FB15K_TransE_Relation2Vec_100.txt"
+    # datafile = "./model/data.pkl"
     trainfile = file_data + "/KBE/datasets/FB15k/valid2id.txt"
-    devfile = file_data + "/KBE/datasets/FB15k/valid2id.txt"
-    testfile = file_data + "/KBE/datasets/FB15k/test2id.txt"
-    train_transE_file = file_data + "/KBE/datasets/FB15k/valid_TransE_confidence.txt"
-    dev_transE_file = file_data + "/KBE/datasets/FB15k/test_TransE_confidence.txt"
-    test_transE_file = file_data + "/KBE/datasets/FB15k/test_TransE_confidence.txt"
-    path_file = file_data + "/Path_4/"
+    # devfile = file_data + "/KBE/datasets/FB15k/valid2id.txt"
+    # testfile = file_data + "/KBE/datasets/FB15k/test2id.txt"
+    # train_transE_file = file_data + "/KBE/datasets/FB15k/valid_TransE_confidence.txt"
+    # dev_transE_file = file_data + "/KBE/datasets/FB15k/test_TransE_confidence.txt"
+    # test_transE_file = file_data + "/KBE/datasets/FB15k/test_TransE_confidence.txt"
+    # path_file = file_data + "/Path_4/"
     entityRank = file_data + "/entityRank_4/"
     file_RRfeatures = file_data + "/ResourceRank_4/"
 

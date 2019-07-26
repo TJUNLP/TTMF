@@ -74,9 +74,10 @@ def searchpath(core, startnode, dict, taillist, Paths, pathlist, depth=5):
     return Paths
 
 
-
 if __name__ == '__main__':
+
     file_data = "/Users/shengbinjia/Documents/GitHub/TCdata"
+
     file_entity = file_data + "/FB15K/entity2id.txt"
 
     file_train = file_data + "/FB15K/golddataset/train2id.txt"
@@ -86,11 +87,11 @@ if __name__ == '__main__':
     file_ent2vec = file_data + "/FB15K_PTransE_Entity2Vec_100.txt"
     file_rel2vec = file_data + "/FB15K_PTransE_Relation2Vec_100.txt"
 
-    file_train2_neg = file_data + "/KBE/datasets/FB15k/train2id_neg.txt"
-    file_train2_pos = file_data + "/KBE/datasets/FB15k/train2id_pos.txt"
-    file_test2 = file_data + "/KBE/datasets/FB15k/test2id.txt"
-    file_valid2 = file_data + "/KBE/datasets/FB15k/valid2id.txt"
-    file_path = file_data + "/Path_42/"
+    # file_train2_neg = file_data + "/KBE/datasets/FB15k/train2id_neg.txt"
+    # file_train2_pos = file_data + "/KBE/datasets/FB15k/train2id_pos.txt"
+    # file_test2 = file_data + "/KBE/datasets/FB15k/test2id.txt"
+    # file_valid2 = file_data + "/KBE/datasets/FB15k/valid2id.txt"
+    file_path = file_data + "/Path_4/"
 
     file_temptest = file_data + "/tmptest.txt"
     # dict = ReadAllTriples([file_temptest])
@@ -106,7 +107,7 @@ if __name__ == '__main__':
     line_dict = {}
     headlist = []
     # for filep in [file_train2_pos, file_test2, file_valid2]:!!!!!!!!!!!!!!!
-    ff = '/Users/shengbinjia/Documents/GitHub/TCdata/FB15K/KBCdataset/100/'
+    ff = file_data + '/FB15K/KBCdataset/100/'
     for filep in [ff +'/conf_train2id.txt', ff +'/conf_test2id.txt']:
         file = open(filep, "r")
         for linet in file:

@@ -61,10 +61,10 @@ def DFS(dict, dg, node, depth=3):
 if __name__ == '__main__':
 
     file_data = "/Users/shengbinjia/Documents/GitHub/TCdata"
-    file_entity = "./data/FB15K/entity2id.txt"
-    file_train = "./data/FB15K/train2id.txt"
-    file_test = "./data/FB15K/test2id.txt"
-    file_valid = "./data/FB15K/valid2id.txt"
+    file_entity = file_data + "/FB15K/entity2id.txt"
+    file_train = file_data + "/FB15K/golddataset/train2id.txt"
+    file_test = file_data + "/FB15K/golddataset/test2id.txt"
+    file_valid = file_data + "/FB15K/golddataset/valid2id.txt"
     file_subGraphs = file_data + "/subGraphs_4/"
 
     dict = ReadAllTriples([file_train, file_test, file_valid])

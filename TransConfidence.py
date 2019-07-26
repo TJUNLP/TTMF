@@ -113,8 +113,8 @@ if __name__ == "__main__":
     # trainfile = file_data + "/KBE/datasets/FB15k/train2id.txt"
     devfile = file_data + "/KBE/datasets/FB15k/conf_train2id.txt"
     testfile = file_data + "/KBE/datasets/FB15k/conf_test2id.txt"
-    testfile_KGC__rt = file_data + "/FB15K/KBCdataset/_rt.txt"
-    testfile = testfile_KGC__rt
+    # testfile_KGC__rt = file_data + "/FB15K/KBCdataset/_rt.txt"
+    # testfile = testfile_KGC__rt
 
     # train_transE_file = file_data + "/KBE/datasets/FB15k/valid_TransE_confidence.txt"
     # dev_transE_file = file_data + "/KBE/datasets/FB15k/test_TransE_confidence.txt"

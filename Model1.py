@@ -917,10 +917,10 @@ if __name__ == "__main__":
 
     entity2vecfile =file_data + "/FB15K_TransE_Entity2Vec_100.txt"
     relation2vecfile = file_data + "/FB15K_TransE_Relation2Vec_100.txt"
-    #
+
     # entity2vecfile =file_data + "/FB15K_PTransE_Entity2Vec_100.txt"
     # relation2vecfile = file_data + "/FB15K_PTransE_Relation2Vec_100.txt"
-    #
+
     # entity2vecfile =file_data + "/FB15K_TransH_Entity2Vec_100.txt"
     # relation2vecfile = file_data + "/FB15K_TransH_Relation2Vec_100.txt"
 
